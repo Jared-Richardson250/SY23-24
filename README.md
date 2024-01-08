@@ -5,3 +5,6 @@ Initial Setup
 
 <b>1-5-24</b> <br>
 Updated from computer.
+
+<b>1-8-24</b> <br>
+Monday Update.

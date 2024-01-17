@@ -2,25 +2,27 @@
 
 Public Class Form1
     Dim Records(50) As String
+    Dim Count As Integer
+    Dim Current As Integer
     Private Sub NewToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewToolStripMenuItem.Click
-        Feild1.Clear()
-        Feild2.Clear()
-        Feild3.Clear()
-        Feild4.Clear()
-        Feild5.Clear()
+        Field1.Clear()
+        Field2.Clear()
+        Field3.Clear()
+        Field4.Clear()
+        Field5.Clear()
     End Sub
 
     Private Sub SaveToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SaveToolStripMenuItem.Click
         Dim OutFile As New IO.StreamWriter("Data.txt")
-        OutFile.Write(Feild1.Text)
+        OutFile.Write(Field1.Text)
         OutFile.Write("|")
-        OutFile.Write(Feild2.Text)
+        OutFile.Write(Field2.Text)
         OutFile.Write("|")
-        OutFile.Write(Feild3.Text)
+        OutFile.Write(Field3.Text)
         OutFile.Write("|")
-        OutFile.Write(Feild4.Text)
+        OutFile.Write(Field4.Text)
         OutFile.Write("|")
-        OutFile.Write(Feild5.Text)
+        OutFile.Write(Field5.Text)
         OutFile.Write("|")
         OutFile.WriteLine(PictureBox1.ImageLocation)
         OutFile.Close()
@@ -37,10 +39,51 @@ Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If IO.File.Exists("Data.txt") Then
             Dim infile As New StreamReader("Data.txt")
-            Dim R = infile.ReadLine
-            Records(0) = infile.ReadLine
-            Records(1) = infile.ReadLine
+            While Not infile.EndOfStream
+                Records(Current) = infile.ReadLine
+                Count = Count + 1
+            End While
             infile.Close()
+            Showrecord(0)
+        End If
+    End Sub
+
+    Public Sub Showrecord(Index As Integer)
+        Dim Fields() As String
+        If Records(Index) <> Nothing Then
+            Fields = Records(Index).Split("|")
+            Field1.Text = Fields(0)
+            Field2.Text = Fields(1)
+            Field3.Text = Fields(2)
+            Field4.Text = Fields(3)
+            Field5.Text = Fields(4)
+            If File.Exists(Fields(5)) Then
+                PictureBox1.Load(Fields(5))
+            End If
+        End If
+    End Sub
+
+    Private Sub FirstButton_Click(sender As Object, e As EventArgs) Handles FirstButton.Click
+        Current = 0
+        Showrecord(Current)
+    End Sub
+
+    Private Sub LastButton_Click(sender As Object, e As EventArgs) Handles LastButton.Click
+        Current = Count - 1
+        Showrecord(Current)
+    End Sub
+
+    Private Sub PreviousButton_Click(sender As Object, e As EventArgs) Handles PreviousButton.Click
+        If Current > 0 Then
+            Current = Current - 1
+            Showrecord(Current)
+        End If
+    End Sub
+
+    Private Sub NextButton_Click(sender As Object, e As EventArgs) Handles NextButton.Click
+        If Current < Count - 1 Then
+            Current = Current + 1
+            Showrecord(Current)
         End If
     End Sub
 End Class

@@ -39,7 +39,7 @@ Partial Class Form1
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.FirstButton = New System.Windows.Forms.Button()
-        Me.PreviousButton = New System.Windows.Forms.Button()
+        Me.PrevButton = New System.Windows.Forms.Button()
         Me.NextButton = New System.Windows.Forms.Button()
         Me.LastButton = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
@@ -145,20 +145,20 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(301, 340)
+        Me.Label4.Location = New System.Drawing.Point(294, 340)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(41, 20)
+        Me.Label4.Size = New System.Drawing.Size(74, 20)
         Me.Label4.TabIndex = 10
-        Me.Label4.Text = "Wins"
+        Me.Label4.Text = "Skill Level"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(240, 373)
+        Me.Label5.Location = New System.Drawing.Point(327, 373)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(128, 20)
+        Me.Label5.Size = New System.Drawing.Size(41, 20)
         Me.Label5.TabIndex = 11
-        Me.Label5.Text = "Triple Crown Wins"
+        Me.Label5.Text = "Wins"
         '
         'PictureBox1
         '
@@ -183,14 +183,14 @@ Partial Class Form1
         Me.FirstButton.Text = "First"
         Me.FirstButton.UseVisualStyleBackColor = True
         '
-        'PreviousButton
+        'PrevButton
         '
-        Me.PreviousButton.Location = New System.Drawing.Point(294, 413)
-        Me.PreviousButton.Name = "PreviousButton"
-        Me.PreviousButton.Size = New System.Drawing.Size(94, 29)
-        Me.PreviousButton.TabIndex = 14
-        Me.PreviousButton.Text = "Previous"
-        Me.PreviousButton.UseVisualStyleBackColor = True
+        Me.PrevButton.Location = New System.Drawing.Point(294, 413)
+        Me.PrevButton.Name = "PrevButton"
+        Me.PrevButton.Size = New System.Drawing.Size(94, 29)
+        Me.PrevButton.TabIndex = 14
+        Me.PrevButton.Text = "Previous"
+        Me.PrevButton.UseVisualStyleBackColor = True
         '
         'NextButton
         '
@@ -217,7 +217,7 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.LastButton)
         Me.Controls.Add(Me.NextButton)
-        Me.Controls.Add(Me.PreviousButton)
+        Me.Controls.Add(Me.PrevButton)
         Me.Controls.Add(Me.FirstButton)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label5)
@@ -259,7 +259,7 @@ Partial Class Form1
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
     Friend WithEvents FirstButton As Button
-    Friend WithEvents PreviousButton As Button
+    Friend WithEvents PrevButton As Button
     Friend WithEvents NextButton As Button
     Friend WithEvents LastButton As Button
 End Class

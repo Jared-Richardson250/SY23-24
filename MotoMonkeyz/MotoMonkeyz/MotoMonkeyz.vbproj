@@ -128,5 +128,14 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamburger-menu-line-three-lines-3-web-navigation-app-ux-ui-uxui-more-list-application-user-site-bar-icon-black-white-outline-shape-sign-symbol-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JettLawrence.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

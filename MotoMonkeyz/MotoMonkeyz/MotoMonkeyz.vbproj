@@ -86,12 +86,6 @@
     <Compile Include="Form2.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="handelbars1.Designer.vb">
-      <DependentUpon>handelbars1.vb</DependentUpon>
-    </Compile>
-    <Compile Include="handelbars1.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -117,9 +111,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -142,10 +136,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\JettLawrence.jpg" />
-    <None Include="Resources\download %2813%29.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\tap-02-5262_rm_xl.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

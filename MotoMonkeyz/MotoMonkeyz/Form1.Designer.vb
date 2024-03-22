@@ -137,7 +137,7 @@ Partial Class Form1
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.SystemColors.Control
-        Me.Button3.BackgroundImage = Global.MotoMonkeyz.My.Resources.Resources.hamburger_menu_line_three_lines_3_web_navigation_app_ux_ui_uxui_more_list_application_user_site_bar_icon_black_white_outline_shape_sign_symbol_vector
+        ' Me.Button3.BackgroundImage = Global.MotoMonkeyz.My.Resources.Resources.hamburger_menu_line_three_lines_3_web_navigation_app_ux_ui_uxui_more_list_application_user_site_bar_icon_black_white_outline_shape_sign_symbol_vector
         Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button3.Location = New System.Drawing.Point(12, 12)
         Me.Button3.Name = "Button3"

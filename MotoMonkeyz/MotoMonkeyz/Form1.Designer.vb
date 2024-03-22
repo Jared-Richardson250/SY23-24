@@ -25,13 +25,14 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button8 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -57,6 +58,7 @@ Partial Class Form1
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Button8)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.Button7)
         Me.GroupBox1.Controls.Add(Me.Button6)
@@ -71,16 +73,45 @@ Partial Class Form1
         Me.GroupBox1.Text = "Parts"
         Me.GroupBox1.Visible = False
         '
-        'Button2
+        'Label2
         '
-        Me.Button2.BackColor = System.Drawing.Color.Transparent
-        Me.Button2.Location = New System.Drawing.Point(119, 21)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(27, 22)
-        Me.Button2.TabIndex = 3
-        Me.Button2.Text = "<-"
-        Me.Button2.UseVisualStyleBackColor = False
-        Me.Button2.Visible = False
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 4.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(6, 390)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(81, 36)
+        Me.Label2.TabIndex = 9
+        Me.Label2.Text = "      Credit" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "           -" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Elijah Manuma" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Jared Richardson"
+        '
+        'Button7
+        '
+        Me.Button7.Font = New System.Drawing.Font("Impact", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button7.Location = New System.Drawing.Point(6, 165)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(95, 30)
+        Me.Button7.TabIndex = 8
+        Me.Button7.Text = "?"
+        Me.Button7.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.Font = New System.Drawing.Font("Impact", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button6.Location = New System.Drawing.Point(6, 129)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(95, 30)
+        Me.Button6.TabIndex = 7
+        Me.Button6.Text = "?"
+        Me.Button6.UseVisualStyleBackColor = True
+        '
+        'Button5
+        '
+        Me.Button5.Font = New System.Drawing.Font("Impact", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.Location = New System.Drawing.Point(6, 93)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(95, 30)
+        Me.Button5.TabIndex = 6
+        Me.Button5.Text = "?"
+        Me.Button5.UseVisualStyleBackColor = True
         '
         'Button4
         '
@@ -91,6 +122,17 @@ Partial Class Form1
         Me.Button4.TabIndex = 5
         Me.Button4.Text = "?"
         Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.Transparent
+        Me.Button2.Location = New System.Drawing.Point(119, 21)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(27, 22)
+        Me.Button2.TabIndex = 3
+        Me.Button2.Text = "<-"
+        Me.Button2.UseVisualStyleBackColor = False
+        Me.Button2.Visible = False
         '
         'Button3
         '
@@ -103,45 +145,15 @@ Partial Class Form1
         Me.Button3.TabIndex = 4
         Me.Button3.UseVisualStyleBackColor = False
         '
-        'Button5
+        'Button8
         '
-        Me.Button5.Font = New System.Drawing.Font("Impact", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(6, 93)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(95, 30)
-        Me.Button5.TabIndex = 6
-        Me.Button5.Text = "?"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'Button6
-        '
-        Me.Button6.Font = New System.Drawing.Font("Impact", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(6, 129)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(95, 30)
-        Me.Button6.TabIndex = 7
-        Me.Button6.Text = "?"
-        Me.Button6.UseVisualStyleBackColor = True
-        '
-        'Button7
-        '
-        Me.Button7.Font = New System.Drawing.Font("Impact", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Location = New System.Drawing.Point(6, 165)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(95, 30)
-        Me.Button7.TabIndex = 8
-        Me.Button7.Text = "?"
-        Me.Button7.UseVisualStyleBackColor = True
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 4.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(6, 390)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(81, 36)
-        Me.Label2.TabIndex = 9
-        Me.Label2.Text = "      Credit" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "           -" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Elijah Manuma" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Jared Richardson"
+        Me.Button8.Font = New System.Drawing.Font("Impact", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button8.Location = New System.Drawing.Point(8, 201)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(95, 30)
+        Me.Button8.TabIndex = 5
+        Me.Button8.Text = "?"
+        Me.Button8.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -171,4 +183,5 @@ Partial Class Form1
     Friend WithEvents Button7 As Button
     Friend WithEvents Button6 As Button
     Friend WithEvents Button5 As Button
+    Friend WithEvents Button8 As Button
 End Class

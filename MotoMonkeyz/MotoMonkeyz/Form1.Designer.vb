@@ -25,15 +25,17 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Button8 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -72,6 +74,16 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Parts"
         Me.GroupBox1.Visible = False
+        '
+        'Button8
+        '
+        Me.Button8.Font = New System.Drawing.Font("Impact", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button8.Location = New System.Drawing.Point(8, 201)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(95, 30)
+        Me.Button8.TabIndex = 5
+        Me.Button8.Text = "?"
+        Me.Button8.UseVisualStyleBackColor = True
         '
         'Label2
         '
@@ -134,6 +146,17 @@ Partial Class Form1
         Me.Button2.UseVisualStyleBackColor = False
         Me.Button2.Visible = False
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = Global.MotoMonkeyz.My.Resources.Resources.eli_tomac
+        Me.PictureBox1.Location = New System.Drawing.Point(121, 66)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(259, 243)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 5
+        Me.PictureBox1.TabStop = False
+        '
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.SystemColors.Control
@@ -145,21 +168,12 @@ Partial Class Form1
         Me.Button3.TabIndex = 4
         Me.Button3.UseVisualStyleBackColor = False
         '
-        'Button8
-        '
-        Me.Button8.Font = New System.Drawing.Font("Impact", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Location = New System.Drawing.Point(8, 201)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(95, 30)
-        Me.Button8.TabIndex = 5
-        Me.Button8.Text = "?"
-        Me.Button8.UseVisualStyleBackColor = True
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label1)
@@ -168,6 +182,7 @@ Partial Class Form1
         Me.Text = "Moto Monkeyz"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -184,4 +199,5 @@ Partial Class Form1
     Friend WithEvents Button6 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button8 As Button
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

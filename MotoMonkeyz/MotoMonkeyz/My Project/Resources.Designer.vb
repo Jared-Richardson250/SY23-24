@@ -63,16 +63,10 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-<<<<<<< Updated upstream
         Friend ReadOnly Property hamburger_menu_line_three_lines_3_web_navigation_app_ux_ui_uxui_more_list_application_user_site_bar_icon_black_white_outline_shape_sign_symbol_vector() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("hamburger-menu-line-three-lines-3-web-navigation-app-ux-ui-uxui-more-list-applica"& _ 
                         "tion-user-site-bar-icon-black-white-outline-shape-sign-symbol-vector", resourceCulture)
-=======
-        Friend ReadOnly Property download__13_() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("download (13)", resourceCulture)
->>>>>>> Stashed changes
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -80,7 +74,6 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-<<<<<<< Updated upstream
         Friend ReadOnly Property JettLawrence() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("JettLawrence", resourceCulture)
@@ -94,11 +87,6 @@ Namespace My.Resources
         Friend ReadOnly Property Menu() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Menu", resourceCulture)
-=======
-        Friend ReadOnly Property tap_02_5262_rm_xl() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("tap-02-5262_rm_xl", resourceCulture)
->>>>>>> Stashed changes
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

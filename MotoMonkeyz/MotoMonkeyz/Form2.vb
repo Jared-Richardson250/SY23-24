@@ -5,4 +5,10 @@
         F1.ShowDialog()
         Me.Show()
     End Sub
+    Private Sub GroupBox1_MouseClick(sender As Object, e As MouseEventArgs) Handles GroupBox1.MouseClick
+        Me.Hide()
+        Dim F3 As New handlebars
+        F3.ShowDialog()
+        Me.Show()
+    End Sub
 End Class

@@ -1,4 +1,4 @@
-<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class Form2
     Inherits System.Windows.Forms.Form
 
@@ -33,106 +33,6 @@ Partial Class Form2
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
-        '
-        'GroupBox7
-        '
-        Me.GroupBox7.Location = New System.Drawing.Point(167, 243)
-        Me.GroupBox7.Name = "GroupBox7"
-        Me.GroupBox7.Size = New System.Drawing.Size(149, 188)
-        Me.GroupBox7.TabIndex = 7
-        Me.GroupBox7.TabStop = False
-        Me.GroupBox7.Text = "GroupBox7"
-        '
-        'GroupBox1
-        '
-        Me.GroupBox1.Controls.Add(Me.PictureBox1)
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 49)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(149, 188)
-        Me.GroupBox1.TabIndex = 8
-        Me.GroupBox1.TabStop = False
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.Location = New System.Drawing.Point(167, 49)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(149, 188)
-        Me.GroupBox2.TabIndex = 8
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "GroupBox2"
-        '
-        'GroupBox3
-        '
-        Me.GroupBox3.Location = New System.Drawing.Point(322, 49)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(149, 188)
-        Me.GroupBox3.TabIndex = 9
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "GroupBox3"
-        '
-        'GroupBox4
-        '
-        Me.GroupBox4.Location = New System.Drawing.Point(477, 49)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(149, 188)
-        Me.GroupBox4.TabIndex = 8
-        Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "GroupBox4"
-        '
-        'GroupBox5
-        '
-        Me.GroupBox5.Location = New System.Drawing.Point(632, 49)
-        Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(149, 188)
-        Me.GroupBox5.TabIndex = 8
-        Me.GroupBox5.TabStop = False
-        Me.GroupBox5.Text = "GroupBox5"
-        '
-        'GroupBox6
-        '
-        Me.GroupBox6.Location = New System.Drawing.Point(12, 243)
-        Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(149, 188)
-        Me.GroupBox6.TabIndex = 8
-        Me.GroupBox6.TabStop = False
-        Me.GroupBox6.Text = "GroupBox6"
-        '
-        'GroupBox8
-        '
-        Me.GroupBox8.Location = New System.Drawing.Point(322, 243)
-        Me.GroupBox8.Name = "GroupBox8"
-        Me.GroupBox8.Size = New System.Drawing.Size(149, 188)
-        Me.GroupBox8.TabIndex = 10
-        Me.GroupBox8.TabStop = False
-        Me.GroupBox8.Text = "GroupBox8"
-        '
-        'GroupBox9
-        '
-        Me.GroupBox9.Location = New System.Drawing.Point(477, 250)
-        Me.GroupBox9.Name = "GroupBox9"
-        Me.GroupBox9.Size = New System.Drawing.Size(149, 188)
-        Me.GroupBox9.TabIndex = 8
-        Me.GroupBox9.TabStop = False
-        Me.GroupBox9.Text = "GroupBox9"
-        '
-        'GroupBox10
-        '
-        Me.GroupBox10.Location = New System.Drawing.Point(632, 250)
-        Me.GroupBox10.Name = "GroupBox10"
-        Me.GroupBox10.Size = New System.Drawing.Size(149, 188)
-        Me.GroupBox10.TabIndex = 8
-        Me.GroupBox10.TabStop = False
-        Me.GroupBox10.Text = "GroupBox10"
-        '
-        'PictureBox1
-        '
-        ' Me.PictureBox1.Image = Global.MotoMonkeyz.My.Resources.Resources.tap_02_5262_rm_xl
-        Me.PictureBox1.Location = New System.Drawing.Point(6, 21)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(137, 42)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
         '
         'Form2
         '

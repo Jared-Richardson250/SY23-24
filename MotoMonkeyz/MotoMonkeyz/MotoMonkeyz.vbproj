@@ -86,6 +86,12 @@
     <Compile Include="Form2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="handelbars1.Designer.vb">
+      <DependentUpon>handelbars1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="handelbars1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -129,6 +135,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <None Include="Resources\Menu.png" />
   </ItemGroup>
   <ItemGroup>
@@ -136,6 +143,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\JettLawrence.jpg" />
+=======
+    <None Include="Resources\download %2813%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tap-02-5262_rm_xl.png" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

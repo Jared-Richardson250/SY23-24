@@ -121,10 +121,13 @@
   <data name="Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="JettLawrence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JettLawrence.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="hamburger-menu-line-three-lines-3-web-navigation-app-ux-ui-uxui-more-list-application-user-site-bar-icon-black-white-outline-shape-sign-symbol-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hamburger-menu-line-three-lines-3-web-navigation-app-ux-ui-uxui-more-list-application-user-site-bar-icon-black-white-outline-shape-sign-symbol-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="JettLawrence" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\JettLawrence.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="eli tomac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eli tomac.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

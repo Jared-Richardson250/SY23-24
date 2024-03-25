@@ -63,6 +63,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property eli_tomac() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("eli tomac", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property hamburger_menu_line_three_lines_3_web_navigation_app_ux_ui_uxui_more_list_application_user_site_bar_icon_black_white_outline_shape_sign_symbol_vector() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("hamburger-menu-line-three-lines-3-web-navigation-app-ux-ui-uxui-more-list-applica"& _ 

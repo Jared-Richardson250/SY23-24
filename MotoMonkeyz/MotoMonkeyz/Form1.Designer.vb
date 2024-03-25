@@ -78,7 +78,7 @@ Partial Class Form1
         'Button8
         '
         Me.Button8.Font = New System.Drawing.Font("Impact", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Location = New System.Drawing.Point(8, 201)
+        Me.Button8.Location = New System.Drawing.Point(6, 201)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(95, 30)
         Me.Button8.TabIndex = 5
@@ -150,7 +150,7 @@ Partial Class Form1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.Image = Global.MotoMonkeyz.My.Resources.Resources.eli_tomac
-        Me.PictureBox1.Location = New System.Drawing.Point(121, 66)
+        Me.PictureBox1.Location = New System.Drawing.Point(119, 80)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(259, 243)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom

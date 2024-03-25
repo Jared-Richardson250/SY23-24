@@ -140,7 +140,6 @@ Partial Class Form2
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.MotoMonkeyz.My.Resources.Resources.tap_02_5262_rm_xl
         Me.PictureBox1.Location = New System.Drawing.Point(6, 21)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(117, 43)

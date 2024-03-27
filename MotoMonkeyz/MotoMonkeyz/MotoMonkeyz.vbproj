@@ -158,5 +158,11 @@
   <ItemGroup>
     <None Include="Resources\eli tomac.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\protaper-handlebar-contour-cr-high-black_.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

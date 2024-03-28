@@ -79,6 +79,12 @@
     <Compile Include="Cart.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="engines.Designer.vb">
+      <DependentUpon>engines.vb</DependentUpon>
+    </Compile>
+    <Compile Include="engines.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +124,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Cart.resx">
       <DependentUpon>Cart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="engines.resx">
+      <DependentUpon>engines.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
@@ -164,6 +173,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\protaper-handlebar-contour-cr-high-black_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m1a2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

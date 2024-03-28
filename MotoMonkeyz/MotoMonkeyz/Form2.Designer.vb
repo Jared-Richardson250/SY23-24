@@ -182,9 +182,9 @@ Partial Class Form2
         '
         'PictureBox3
         '
+        Me.PictureBox3.Image = Global.MotoMonkeyz.My.Resources.Resources.JettLawrence
         Me.PictureBox3.Location = New System.Drawing.Point(5, 21)
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.PictureBox3.Image = Global.MotoMonkeyz.My.Resources.Resources.JettLawrence
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(149, 121)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -213,20 +213,20 @@ Partial Class Form2
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(84, 29)
         Me.Label7.TabIndex = 2
-        Me.Label7.Text = "$78.00"
+        Me.Label7.Text = "$69.00"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
         Me.Label8.Location = New System.Drawing.Point(63, 148)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(48, 16)
+        Me.Label8.Size = New System.Drawing.Size(86, 16)
         Me.Label8.TabIndex = 1
-        Me.Label8.Text = "Label8"
+        Me.Label8.Text = "Elijahs pickle"
         '
         'PictureBox4
         '
-        Me.PictureBox4.Image = Global.MotoMonkeyz.My.Resources.Resources.protaper_handlebar_contour_cr_high_black_
+        Me.PictureBox4.Image = Global.MotoMonkeyz.My.Resources.Resources.m1a2
         Me.PictureBox4.Location = New System.Drawing.Point(5, 21)
         Me.PictureBox4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox4.Name = "PictureBox4"

@@ -20,8 +20,8 @@
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Me.Hide()
-        Dim F2 As New Form2
-        F2.ShowDialog()
+        Dim Engine As New engines
+        Engine.ShowDialog()
         Me.Show()
     End Sub
 

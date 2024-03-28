@@ -1,6 +1,11 @@
 ﻿Public Class handlebars
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Hide()
+
+
+
+
+
         Dim F2 As New Form2
         F2.ShowDialog()
         Me.Show()
@@ -47,6 +52,7 @@
                   CR HIGH 1-1/8"
         Cart.PictureBox1.Image = MotoMonkeyz.My.Resources.Resources.protaper_handlebar_contour_cr_high_black_
         Cart.TextBox2.Text = ComboBox4.Text
+        Cart.Label2.Text = Label2.Text
 
 
         Cart.ShowDialog()

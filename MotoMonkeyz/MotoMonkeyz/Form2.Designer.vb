@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class Form2
     Inherits System.Windows.Forms.Form
 
@@ -182,9 +182,9 @@ Partial Class Form2
         '
         'PictureBox3
         '
-        Me.PictureBox3.Image = Global.MotoMonkeyz.My.Resources.Resources.eli_tomac
         Me.PictureBox3.Location = New System.Drawing.Point(5, 21)
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.PictureBox3.Image = Global.MotoMonkeyz.My.Resources.Resources.JettLawrence
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(149, 121)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom

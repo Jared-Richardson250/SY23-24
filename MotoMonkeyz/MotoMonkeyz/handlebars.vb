@@ -48,9 +48,8 @@
         Dim Cart As New Cart
 
 
-        Cart.TextBox1.Text = "PROTAPER CONTOUR HANDLEBARS
-                  CR HIGH 1-1/8"
-        Cart.PictureBox1.Image = MotoMonkeyz.My.Resources.Resources.protaper_handlebar_contour_cr_high_black_
+        Cart.TextBox1.Text = Label3.Text
+        Cart.PictureBox1.Image = PictureBox1.Image
         Cart.TextBox2.Text = ComboBox4.Text
         Cart.Label2.Text = Label2.Text
 
@@ -58,6 +57,10 @@
         Cart.ShowDialog()
         Me.Show()
 
+
+    End Sub
+
+    Private Sub handlebars_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class

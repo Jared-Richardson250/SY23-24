@@ -48,6 +48,9 @@
         Dim Cart As New Cart
 
 
+        Cart.YearTB.Text = YearComboBox.Text
+        Cart.ModelTB.Text = ModelComboBox.Text
+        Cart.MakeTB.Text = MakeComboBox.Text
         Cart.TextBox1.Text = Label3.Text
         Cart.PictureBox1.Image = PictureBox1.Image
         Cart.TextBox2.Text = ComboBox4.Text

@@ -177,5 +177,20 @@
   <ItemGroup>
     <None Include="Resources\m1a2.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\honda-crf-dirt-bikes-motorcycles-trail-off-road-models-review-specs-motorbike-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\85ad1651-5502-4b1c-84df-9438cc62fee2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\101.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hqvlogo140-blue.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

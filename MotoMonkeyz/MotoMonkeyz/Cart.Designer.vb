@@ -28,7 +28,6 @@ Partial Class Cart
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
-<<<<<<< Updated upstream
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -36,9 +35,7 @@ Partial Class Cart
         Me.ModelTB = New System.Windows.Forms.TextBox()
         Me.YearTB = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-=======
         Me.TextBox2 = New System.Windows.Forms.TextBox()
->>>>>>> Stashed changes
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -55,7 +52,7 @@ Partial Class Cart
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(13, 193)
+        Me.TextBox1.Location = New System.Drawing.Point(18, 193)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
@@ -72,18 +69,6 @@ Partial Class Cart
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
         '
-<<<<<<< Updated upstream
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(65, 307)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.ReadOnly = True
-        Me.TextBox2.Size = New System.Drawing.Size(10, 22)
-        Me.TextBox2.TabIndex = 3
-        '
-=======
->>>>>>> Stashed changes
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -95,11 +80,7 @@ Partial Class Cart
         '
         'Button2
         '
-<<<<<<< Updated upstream
-        Me.Button2.Location = New System.Drawing.Point(9, 13)
-=======
         Me.Button2.Location = New System.Drawing.Point(12, 12)
->>>>>>> Stashed changes
         Me.Button2.Margin = New System.Windows.Forms.Padding(4)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(31, 31)
@@ -116,7 +97,6 @@ Partial Class Cart
         Me.Label2.TabIndex = 6
         Me.Label2.Text = "Label2"
         '
-<<<<<<< Updated upstream
         'Label3
         '
         Me.Label3.AutoSize = True
@@ -186,7 +166,7 @@ Partial Class Cart
         Me.GroupBox1.TabIndex = 13
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "GroupBox1"
-=======
+        '
         'TextBox2
         '
         Me.TextBox2.Location = New System.Drawing.Point(64, 329)
@@ -195,7 +175,6 @@ Partial Class Cart
         Me.TextBox2.ReadOnly = True
         Me.TextBox2.Size = New System.Drawing.Size(100, 22)
         Me.TextBox2.TabIndex = 3
->>>>>>> Stashed changes
         '
         'Cart
         '
@@ -223,7 +202,6 @@ Partial Class Cart
     Friend WithEvents Label1 As Label
     Friend WithEvents Button2 As Button
     Friend WithEvents Label2 As Label
-<<<<<<< Updated upstream
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
@@ -231,7 +209,5 @@ Partial Class Cart
     Friend WithEvents ModelTB As TextBox
     Friend WithEvents YearTB As TextBox
     Friend WithEvents GroupBox1 As GroupBox
-=======
     Friend WithEvents TextBox2 As TextBox
->>>>>>> Stashed changes
 End Class

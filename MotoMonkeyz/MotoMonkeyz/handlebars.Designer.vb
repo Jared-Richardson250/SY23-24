@@ -22,7 +22,7 @@ Partial Class handlebars
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.HandlebarsBack = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -32,18 +32,20 @@ Partial Class handlebars
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.EngineBack = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Button1
+        'HandlebarsBack
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 12)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Back"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.HandlebarsBack.Location = New System.Drawing.Point(12, 12)
+        Me.HandlebarsBack.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.HandlebarsBack.Name = "HandlebarsBack"
+        Me.HandlebarsBack.Size = New System.Drawing.Size(75, 23)
+        Me.HandlebarsBack.TabIndex = 0
+        Me.HandlebarsBack.Text = "Back"
+        Me.HandlebarsBack.UseVisualStyleBackColor = True
+        Me.HandlebarsBack.Visible = False
         '
         'Label1
         '
@@ -136,11 +138,23 @@ Partial Class handlebars
         Me.Label3.TabIndex = 9
         Me.Label3.Text = "" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
+        'EngineBack
+        '
+        Me.EngineBack.Location = New System.Drawing.Point(12, 12)
+        Me.EngineBack.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.EngineBack.Name = "EngineBack"
+        Me.EngineBack.Size = New System.Drawing.Size(75, 23)
+        Me.EngineBack.TabIndex = 10
+        Me.EngineBack.Text = "Back"
+        Me.EngineBack.UseVisualStyleBackColor = True
+        Me.EngineBack.Visible = False
+        '
         'handlebars
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.EngineBack)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.ComboBox4)
         Me.Controls.Add(Me.YearComboBox)
@@ -150,7 +164,7 @@ Partial Class handlebars
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.HandlebarsBack)
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "handlebars"
         Me.Text = "handlebars"
@@ -160,7 +174,7 @@ Partial Class handlebars
 
     End Sub
 
-    Friend WithEvents Button1 As Button
+    Friend WithEvents HandlebarsBack As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
@@ -170,4 +184,5 @@ Partial Class handlebars
     Friend WithEvents YearComboBox As ComboBox
     Friend WithEvents ComboBox4 As ComboBox
     Friend WithEvents Label3 As Label
+    Friend WithEvents EngineBack As Button
 End Class

@@ -1,11 +1,6 @@
 ﻿Public Class handlebars
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles HandlebarsBack.Click
         Me.Hide()
-
-
-
-
-
         Dim F2 As New Form2
         F2.ShowDialog()
         Me.Show()
@@ -61,5 +56,12 @@
         Me.Show()
 
 
+    End Sub
+
+    Private Sub EngineBack_Click(sender As Object, e As EventArgs) Handles EngineBack.Click
+        Me.Hide()
+        Dim Engines As New engines
+        Engines.ShowDialog()
+        Me.Show()
     End Sub
 End Class

@@ -52,7 +52,7 @@ Partial Class Cart
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(18, 193)
+        Me.TextBox1.Location = New System.Drawing.Point(16, 193)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
@@ -129,7 +129,7 @@ Partial Class Cart
         Me.MakeTB.Location = New System.Drawing.Point(65, 334)
         Me.MakeTB.Name = "MakeTB"
         Me.MakeTB.ReadOnly = True
-        Me.MakeTB.Size = New System.Drawing.Size(10, 22)
+        Me.MakeTB.Size = New System.Drawing.Size(177, 22)
         Me.MakeTB.TabIndex = 10
         '
         'ModelTB
@@ -137,7 +137,7 @@ Partial Class Cart
         Me.ModelTB.Location = New System.Drawing.Point(65, 362)
         Me.ModelTB.Name = "ModelTB"
         Me.ModelTB.ReadOnly = True
-        Me.ModelTB.Size = New System.Drawing.Size(10, 22)
+        Me.ModelTB.Size = New System.Drawing.Size(177, 22)
         Me.ModelTB.TabIndex = 11
         '
         'YearTB
@@ -145,7 +145,7 @@ Partial Class Cart
         Me.YearTB.Location = New System.Drawing.Point(65, 390)
         Me.YearTB.Name = "YearTB"
         Me.YearTB.ReadOnly = True
-        Me.YearTB.Size = New System.Drawing.Size(10, 22)
+        Me.YearTB.Size = New System.Drawing.Size(177, 22)
         Me.YearTB.TabIndex = 12
         '
         'GroupBox1
@@ -169,11 +169,11 @@ Partial Class Cart
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(64, 329)
+        Me.TextBox2.Location = New System.Drawing.Point(65, 304)
         Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.ReadOnly = True
-        Me.TextBox2.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(177, 22)
         Me.TextBox2.TabIndex = 3
         '
         'Cart

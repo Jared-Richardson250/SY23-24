@@ -9,7 +9,7 @@
         Me.Hide()
         Dim F3 As New handlebars
 
-
+        F3.HandlebarsBack.Visible = True
         F3.Label3.Text = Label1.Text
         F3.PictureBox1.Image = PictureBox1.Image
         F3.Label2.Text = Label2.Text
@@ -22,7 +22,7 @@
         Me.Hide()
         Dim F3 As New handlebars
 
-
+        F3.HandlebarsBack.Visible = True
         F3.Label3.Text = Label4.Text
         F3.PictureBox1.Image = PictureBox2.Image
         F3.Label2.Text = Label3.Text
@@ -36,7 +36,7 @@
         Me.Hide()
         Dim F3 As New handlebars
 
-
+        F3.HandlebarsBack.Visible = True
         F3.Label3.Text = Label6.Text
         F3.PictureBox1.Image = PictureBox3.Image
         F3.Label2.Text = Label5.Text
@@ -50,7 +50,7 @@
         Me.Hide()
         Dim F3 As New handlebars
 
-
+        F3.HandlebarsBack.Visible = True
         F3.Label3.Text = Label8.Text
         F3.PictureBox1.Image = PictureBox4.Image
         F3.Label2.Text = Label7.Text

@@ -25,18 +25,18 @@ Partial Class engines
         Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox2.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox3.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox4.SuspendLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -66,6 +66,16 @@ Partial Class engines
         Me.GroupBox2.TabIndex = 2
         Me.GroupBox2.TabStop = False
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.MotoMonkeyz.My.Resources.Resources._85ad1651_5502_4b1c_84df_9438cc62fee2
+        Me.PictureBox2.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(328, 164)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 0
+        Me.PictureBox2.TabStop = False
+        '
         'GroupBox3
         '
         Me.GroupBox3.Controls.Add(Me.PictureBox3)
@@ -74,6 +84,16 @@ Partial Class engines
         Me.GroupBox3.Size = New System.Drawing.Size(328, 181)
         Me.GroupBox3.TabIndex = 2
         Me.GroupBox3.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = Global.MotoMonkeyz.My.Resources.Resources._101
+        Me.PictureBox3.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(328, 164)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 0
+        Me.PictureBox3.TabStop = False
         '
         'GroupBox4
         '
@@ -93,26 +113,6 @@ Partial Class engines
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox4.TabIndex = 1
         Me.PictureBox4.TabStop = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Image = Global.MotoMonkeyz.My.Resources.Resources._101
-        Me.PictureBox3.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(328, 164)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 0
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = Global.MotoMonkeyz.My.Resources.Resources._85ad1651_5502_4b1c_84df_9438cc62fee2
-        Me.PictureBox2.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(328, 164)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 0
-        Me.PictureBox2.TabStop = False
         '
         'PictureBox1
         '
@@ -138,11 +138,11 @@ Partial Class engines
         Me.Name = "engines"
         Me.Text = "`"
         Me.GroupBox2.ResumeLayout(False)
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox3.ResumeLayout(False)
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox4.ResumeLayout(False)
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 

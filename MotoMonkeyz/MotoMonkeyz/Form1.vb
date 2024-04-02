@@ -27,29 +27,29 @@ Public Class Form1
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         Me.Hide()
-        Dim F2 As New Form2
-        F2.ShowDialog()
+        Dim Grips As New Grips
+        Grips.ShowDialog()
         Me.Show()
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
         Me.Hide()
-        Dim F2 As New Form2
-        F2.ShowDialog()
+        Dim Levers As New Levers
+        Levers.ShowDialog()
         Me.Show()
     End Sub
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
         Me.Hide()
-        Dim F2 As New Form2
-        F2.ShowDialog()
+        Dim Graphics As New Graphics
+        Graphics.ShowDialog()
         Me.Show()
     End Sub
 
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
         Me.Hide()
-        Dim F2 As New Form2
-        F2.ShowDialog()
+        Dim Wheels As New Wheels
+        Wheels.ShowDialog()
         Me.Show()
     End Sub
 

@@ -60,7 +60,17 @@
         Me.Show()
     End Sub
 
-    Private Sub GroupBox1_Enter(sender As Object, e As EventArgs) Handles GroupBox1.Enter
+    Private Sub GroupBox5_Enter(sender As Object, e As EventArgs) Handles GroupBox5.Enter
+        Me.Hide()
+        Dim F3 As New handlebars
 
+        F3.HandlebarsBack.Visible = True
+        F3.Label3.Text = Label8.Text
+        F3.PictureBox1.Image = PictureBox4.Image
+        F3.Label2.Text = Label7.Text
+
+
+        F3.ShowDialog()
+        Me.Show()
     End Sub
 End Class

@@ -98,10 +98,28 @@
     <Compile Include="Form2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Graphics.Designer.vb">
+      <DependentUpon>Graphics.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Graphics.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grips.Designer.vb">
+      <DependentUpon>Grips.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Grips.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="handlebars.Designer.vb">
       <DependentUpon>handlebars.vb</DependentUpon>
     </Compile>
     <Compile Include="handlebars.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Levers.Designer.vb">
+      <DependentUpon>Levers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Levers.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Module1.vb" />
@@ -120,6 +138,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Wheels.Designer.vb">
+      <DependentUpon>Wheels.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Wheels.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Cart.resx">
@@ -134,14 +158,26 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Graphics.resx">
+      <DependentUpon>Graphics.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grips.resx">
+      <DependentUpon>Grips.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="handlebars.resx">
       <DependentUpon>handlebars.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Levers.resx">
+      <DependentUpon>Levers.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wheels.resx">
+      <DependentUpon>Wheels.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

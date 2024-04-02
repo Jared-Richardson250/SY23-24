@@ -15,14 +15,32 @@
 
         If MakeComboBox.SelectedIndex = 1 Then
             ModelComboBox.Items.Clear()
+            ModelComboBox.Items.Add("KLX110R")
+            ModelComboBox.Items.Add("KLX140R")
+            ModelComboBox.Items.Add("KLX230R")
+            ModelComboBox.Items.Add("KLX300R")
             ModelComboBox.Items.Add("KX250")
+            ModelComboBox.Items.Add("KX250X")
             ModelComboBox.Items.Add("KX450")
+            ModelComboBox.Items.Add("KX450X")
+            ModelComboBox.Items.Add("KX450SR")
         End If
 
         If MakeComboBox.SelectedIndex = 2 Then
             ModelComboBox.Items.Clear()
-            ModelComboBox.Items.Add("YZ125")
+            ModelComboBox.Items.Add("PW50")
+            ModelComboBox.Items.Add("TT-R50E")
+            ModelComboBox.Items.Add("TT-R110E")
+            ModelComboBox.Items.Add("TT-R125LE")
+            ModelComboBox.Items.Add("TT-R230")
+            ModelComboBox.Items.Add("WR250F")
+            ModelComboBox.Items.Add("WR450F")
+            ModelComboBox.Items.Add("YZ250FX")
+            ModelComboBox.Items.Add("YZ450FX")
+            ModelComboBox.Items.Add("TT-R50E")
+            ModelComboBox.Items.Add("TT-R50E")
             ModelComboBox.Items.Add("YZ250F")
+            ModelComboBox.Items.Add("YZ450F")
         End If
 
         If MakeComboBox.SelectedIndex = 3 Then
@@ -91,5 +109,9 @@
         Dim Levers As New Levers
         Levers.ShowDialog()
         Me.Show()
+    End Sub
+
+    Private Sub handlebars_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

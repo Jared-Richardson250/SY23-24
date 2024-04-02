@@ -85,6 +85,12 @@
     <Compile Include="engines.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="engines1.Designer.vb">
+      <DependentUpon>engines1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="engines1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -151,6 +157,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="engines.resx">
       <DependentUpon>engines.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="engines1.resx">
+      <DependentUpon>engines1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>

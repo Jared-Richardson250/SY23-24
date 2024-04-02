@@ -64,4 +64,32 @@
         Engines.ShowDialog()
         Me.Show()
     End Sub
+
+    Private Sub WheelsBack_Click(sender As Object, e As EventArgs) Handles WheelsBack.Click
+        Me.Hide()
+        Dim Wheels As New Wheels
+        Wheels.ShowDialog()
+        Me.Show()
+    End Sub
+
+    Private Sub GraphicsBack_Click(sender As Object, e As EventArgs) Handles GraphicsBack.Click
+        Me.Hide()
+        Dim Graphics As New Graphics
+        Graphics.ShowDialog()
+        Me.Show()
+    End Sub
+
+    Private Sub GripsBack_Click(sender As Object, e As EventArgs) Handles GripsBack.Click
+        Me.Hide()
+        Dim Grips As New Grips
+        Grips.ShowDialog()
+        Me.Show()
+    End Sub
+
+    Private Sub LeversBack_Click(sender As Object, e As EventArgs) Handles LeversBack.Click
+        Me.Hide()
+        Dim Levers As New Levers
+        Levers.ShowDialog()
+        Me.Show()
+    End Sub
 End Class

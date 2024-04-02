@@ -100,7 +100,7 @@ Partial Class Graphics
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.MotoMonkeyz.My.Resources.Resources.protaper_handlebar_contour_cr_high_black_
+        Me.PictureBox1.Image = Global.MotoMonkeyz.My.Resources.Resources.m1a2
         Me.PictureBox1.Location = New System.Drawing.Point(4, 17)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"

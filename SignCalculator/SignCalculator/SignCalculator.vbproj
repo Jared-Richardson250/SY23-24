@@ -8,6 +8,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="AquariusEmoji.png" />
+    <None Remove="AriesEmoji.jpg" />
+    <None Remove="cancer.jpg" />
+    <None Remove="CapricornEmoji.png" />
+    <None Remove="gmeini.jpg" />
+    <None Remove="leo.jpg" />
+    <None Remove="libra.jpg" />
+    <None Remove="PiscesEmopji.jpg" />
+    <None Remove="Sagittarius.jpg" />
+    <None Remove="scorpio.jpg" />
+    <None Remove="Taurus.jpg" />
+    <None Remove="virgo.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Import Include="System.Windows" />
     <Import Include="System.Windows.Controls" />
     <Import Include="System.Windows.Data" />
@@ -17,6 +32,21 @@
     <Import Include="System.Windows.Media.Imaging" />
     <Import Include="System.Windows.Navigation" />
     <Import Include="System.Windows.Shapes" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="AquariusEmoji.png" />
+    <Resource Include="AriesEmoji.jpg" />
+    <Resource Include="cancer.jpg" />
+    <Resource Include="CapricornEmoji.png" />
+    <Resource Include="gmeini.jpg" />
+    <Resource Include="leo.jpg" />
+    <Resource Include="libra.jpg" />
+    <Resource Include="PiscesEmopji.jpg" />
+    <Resource Include="Sagittarius.jpg" />
+    <Resource Include="scorpio.jpg" />
+    <Resource Include="Taurus.jpg" />
+    <Resource Include="virgo.jpg" />
   </ItemGroup>
 
 </Project>

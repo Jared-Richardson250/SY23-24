@@ -8,8 +8,20 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Calendar x:Name="Cal1" HorizontalAlignment="Center" Margin="0,94,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="Button1" Content="Button" HorizontalAlignment="Center" Margin="0,293,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="Label1" Content="Label" HorizontalAlignment="Center" Margin="0,262,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Button1" Content="Select" HorizontalAlignment="Center" Margin="0,293,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Label1" HorizontalAlignment="Center" Margin="0,262,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="CapricornPB" HorizontalAlignment="Left" Height="164" Margin="538,94,0,0" VerticalAlignment="Top" Width="192" Source="/CapricornEmoji.png" IsEnabled="False" Visibility="Hidden"/>
+        <Image x:Name="AquariusPB" HorizontalAlignment="Left" Height="164" Margin="538,94,0,0" VerticalAlignment="Top" Width="192" Source="/AquariusEmoji.png" IsEnabled="False" Visibility="Hidden"/>
+        <Image x:Name="PiscesPB" HorizontalAlignment="Left" Height="164" Margin="538,94,0,0" VerticalAlignment="Top" Width="192" Source="/PiscesEmopji.jpg" IsEnabled="False" Visibility="Hidden"/>
+        <Image x:Name="AriesPB" HorizontalAlignment="Left" Height="164" Margin="538,94,0,0" VerticalAlignment="Top" Width="192" Source="/AriesEmoji.jpg" IsEnabled="False" Visibility="Hidden"/>
+        <Image x:Name="TaurusPB" HorizontalAlignment="Left" Height="164" Margin="538,94,0,0" VerticalAlignment="Top" Width="192" Source="/Taurus.jpg" IsEnabled="False" Visibility="Hidden"/>
+        <Image x:Name="GeminiPB" HorizontalAlignment="Left" Height="164" Margin="538,94,0,0" VerticalAlignment="Top" Width="192" Source="/gmeini.jpg" IsEnabled="False" Visibility="Hidden"/>
+        <Image x:Name="CancerPB" HorizontalAlignment="Left" Height="164" Margin="538,94,0,0" VerticalAlignment="Top" Width="192" Source="/cancer.jpg" IsEnabled="False" Visibility="Hidden"/>
+        <Image x:Name="LeoPB" HorizontalAlignment="Left" Height="164" Margin="538,94,0,0" VerticalAlignment="Top" Width="192" Source="/leo.jpg" IsEnabled="False" Visibility="Hidden"/>
+        <Image x:Name="VirgoPB" HorizontalAlignment="Left" Height="164" Margin="538,94,0,0" VerticalAlignment="Top" Width="192" Source="/virgo.jpg" IsEnabled="False" Visibility="Hidden"/>
+        <Image x:Name="LibraPB" HorizontalAlignment="Left" Height="164" Margin="538,94,0,0" VerticalAlignment="Top" Width="192" Source="/libra.jpg" IsEnabled="False" Visibility="Hidden"/>
+        <Image x:Name="ScorpioPB" HorizontalAlignment="Left" Height="164" Margin="538,94,0,0" VerticalAlignment="Top" Width="192" Source="/scorpio.jpg" IsEnabled="False" Visibility="Hidden"/>
+        <Image x:Name="SagittariusPB" HorizontalAlignment="Left" Height="164" Margin="538,94,0,0" VerticalAlignment="Top" Width="192" Source="/Sagittarius.jpg" Visibility="Hidden"/>
 
     </Grid>
 </Window>

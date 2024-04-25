@@ -24,15 +24,14 @@ Class MainWindow
     Private Sub ExpDateTB_GotFocus(sender As Object, e As RoutedEventArgs) Handles ExpDateTB.GotFocus
         ExpDateTB.Text = Nothing
     End Sub
+    Private Sub EmailTB_GotFocus(sender As Object, e As RoutedEventArgs) Handles EmailTB.GotFocus
+        EmailTB.Text = Nothing
+    End Sub
     Private Sub PayButton_Click(sender As Object, e As RoutedEventArgs) Handles PayButton.Click
         CardNumberTB.Text = "Card Number"
         ExpDateTB.Text = "Expiration Date"
         CVCTB.Text = "CVC"
         EmailTB.Text = "Email"
-        CardNumberTB.Text = "Cardholder's Name"
-    End Sub
-
-    Private Sub EmailTB_GotFocus(sender As Object, e As RoutedEventArgs) Handles EmailTB.GotFocus
-        EmailTB.Text = Nothing
+        CardholderTB.Text = "Cardholder's Name"
     End Sub
 End Class

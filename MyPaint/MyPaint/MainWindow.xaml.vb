@@ -8,7 +8,9 @@
         Dim P As Point = Mouse.GetPosition(DrawingCanvas)
         Canvas.SetLeft(EL, P.X)
         Canvas.SetTop(EL, P.Y)
-        DrawingCanvas.Children.Add(EL)
+        If e.LeftButton = MouseButtonState.Pressed Then
+            DrawingCanvas.Children.Add(EL)
+        End If
     End Sub
 
     Private Sub ColorRectangle2_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles ColorRectangle2.MouseDown, ColorRectangle3.MouseDown, ColorRectangle4.MouseDown, ColorRectangle5.MouseDown, ColorRectangle6.MouseDown, ColorRectangle7.MouseDown, ColorRectangle8.MouseDown, ColorRectangle1_Copy.MouseDown

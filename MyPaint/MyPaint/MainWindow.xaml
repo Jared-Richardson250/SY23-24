@@ -21,7 +21,12 @@
         <Rectangle x:Name="ColorRectangle5" HorizontalAlignment="Left" Height="50" Margin="10,264,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="#FFFF6500"/>
         <Rectangle x:Name="ColorRectangle6" HorizontalAlignment="Left" Height="50" Margin="70,264,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="#FF00FFF6"/>
         <Rectangle x:Name="ColorRectangle7" HorizontalAlignment="Left" Height="50" Margin="10,209,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="#FFFFF900"/>
-        <Rectangle x:Name="ColorRectangle8" HorizontalAlignment="Left" Height="50" Margin="70,209,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="#FF5F00FF"/>
+        <Rectangle x:Name="ColorRectangle8" HorizontalAlignment="Left" Height="50" Margin="70,209,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="Black"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="15,56,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.321,-0.349" Width="105" Click="Button_Click"/>
+        <Button Content="Undo" HorizontalAlignment="Left" Margin="15,81,0,0" VerticalAlignment="Top" Width="105" Click="Button_Click_1"/>
+        <Button Content="Rectangle" HorizontalAlignment="Left" Margin="65,159,0,0" VerticalAlignment="Top" Width="60" Click="Button_Click_2"/>
+        <Button Content="Ellipse" HorizontalAlignment="Left" Margin="65,184,0,0" VerticalAlignment="Top" Width="60" Click="Button_Click_3"/>
+        <Label x:Name="ShapeLabel" Content="Shapes" HorizontalAlignment="Left" Margin="4,168,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

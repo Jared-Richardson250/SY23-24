@@ -46,6 +46,21 @@ Class MainWindow
                 DrawingCanvas.Children.Add(r)
             End If
         End If
+        If ShapeLabel.Content = "picture" Then
+
+            Dim myImageBrush As New ImageBrush(m1a2.Source)
+            Dim myCanvas As New Canvas
+            myCanvas.Width = WidthSlider.Value
+            myCanvas.Height = HeightSlider.Value
+            myCanvas.Background = myImageBrush
+            Dim p As Point = Mouse.GetPosition(DrawingCanvas)
+            Canvas.SetLeft(myCanvas, p.X)
+            Canvas.SetTop(myCanvas, p.Y)
+            If e.LeftButton = MouseButtonState.Pressed Then
+                DrawingCanvas.Children.Add(myCanvas)
+            End If
+
+        End If
     End Sub
 
     Private Sub ColorRectangle2_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles ColorRectangle2.MouseDown, ColorRectangle3.MouseDown, ColorRectangle4.MouseDown, ColorRectangle5.MouseDown, ColorRectangle6.MouseDown, ColorRectangle7.MouseDown, ColorRectangle8.MouseDown, ColorRectangle1_Copy.MouseDown
@@ -129,5 +144,9 @@ Class MainWindow
 
     Private Sub AngleSlider_ValueChanged(sender As Object, e As RoutedPropertyChangedEventArgs(Of Double)) Handles AngleSlider.ValueChanged
         ColorMix.Fill = New LinearGradientBrush(Grad1, Grad2, AngleSlider.Value)
+    End Sub
+
+    Private Sub Deegan_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles m1a2.MouseDown
+        ShapeLabel.Content = "picture"
     End Sub
 End Class
